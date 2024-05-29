@@ -25,7 +25,7 @@ class TestRoutes(TestCase):
             text='Text',
             author=cls.author,
         )
-    
+
     def test_pages_availability_for_everyone(self):
         urls = (
             'notes:home',
